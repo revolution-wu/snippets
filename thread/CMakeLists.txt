@@ -9,18 +9,14 @@ set(LIBRARY_OUTPUT_PATH ${PROJECT_BINARY_DIR}/lib)
 
 set(LISTSRC
   thread.cpp
-<<<<<<< HEAD
   threadpool.cpp
   countdownlatch.cpp
+  buffer.cpp
   )
 
 add_library(base ${LISTSRC})
 
 add_subdirectory(test)
-=======
-  test/thread_test.cpp)
 
-add_executable(thread_test ${LISTSRC})
 
->>>>>>> e71df5385141000f7d516b8c0f307153f08b2658
 
