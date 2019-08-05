@@ -1,6 +1,0 @@
-add_executable(boost_asio boost_asio.cpp)
-target_link_libraries(boost_asio boost_system)
-add_executable(boost_asio_test02 boost_asio_test02.cpp)
-target_link_libraries(boost_asio_test02 boost_system)
-add_executable(boost_asio_server boost_asio_server.cpp)
-target_link_libraries(boost_asio_server boost_system)
